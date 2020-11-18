@@ -1,9 +1,11 @@
 header {
   background-color: #244751;
   color: #E8FDFF;
+  font-family: 'Dancing Script', cursive;
 }
 body {
-    background-color: whitesmoke:
+    background-color: #e3e3e3;
+    font-family: 'Comfortaa', cursive;
 }
 main {
     background-color:white;
@@ -14,4 +16,10 @@ main {
 }
 .finstagram-post .user-info img {
     border-radius: 50%;
+}
+a.photo {
+    transition: 0.5s;
+}
+a.photo:hover {
+    padding: 10px;
 }
